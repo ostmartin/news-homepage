@@ -82,15 +82,10 @@ hr{
 
 .card-title:hover{
     color: var(--soft-orange);
+    cursor: pointer;
 }
 
 .card-description{
     color: var(--dark-grayish-blue);
     font-weight: 400;
-}
-
-@media (max-width: 1199px) {
-    .card-images{
-        width: auto !important;
-    }
 }
